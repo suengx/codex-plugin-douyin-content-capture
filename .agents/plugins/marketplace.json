@@ -1,0 +1,20 @@
+{
+  "name": "suengx-douyin-content-capture",
+  "interface": {
+    "displayName": "suengx 抖音内容抓取"
+  },
+  "plugins": [
+    {
+      "name": "douyin-content-capture",
+      "source": {
+        "source": "local",
+        "path": "./plugins/douyin-content-capture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
