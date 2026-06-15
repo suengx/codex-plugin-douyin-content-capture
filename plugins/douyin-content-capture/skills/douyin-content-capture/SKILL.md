@@ -4,9 +4,6 @@ description: >
   解析抖音分享链接，下载无水印视频或图文内容，并通过 faster-whisper
   在本地完成语音转写。用户给出 Douyin URL、v.douyin.com 短链，
   或明确要求提取文案、字幕、无水印下载、抖音分享链时使用。
-metadata:
-  version: "1.0.0"
-  compatibility: "Requires Python 3.10+, FFmpeg (video transcription), network. No login cookies."
 ---
 
 # 抖音内容抓取
